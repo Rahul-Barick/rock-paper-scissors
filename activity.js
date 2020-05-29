@@ -66,7 +66,7 @@ const determineWinner = (userChoice, computerChoice) => {
 
 //Let's play the fun Game
 const playGame = () => {
-    const userChoice = getUserChoice('bomb');
+    const userChoice = getUserChoice('paper');
     const computerChoice = getComputerChoice();
     if (userChoice) {
         console.log(`UserChoice:: ${userChoice}`);
